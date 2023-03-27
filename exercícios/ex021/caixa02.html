@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping Tag</title>
+    <style>
+       body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: dimgray;
+        margin: 0px;
+       } 
+
+       header {
+        padding: 10px;
+        margin: 10px;
+        background-color: white;
+       }
+
+       nav {
+        background-color: darkgray;
+        padding: 3px;
+        box-shadow: 2px 2px 4px 1px rgba(0, 0, 0, 0.315);
+       }
+
+       nav > a {
+        background-color: darkgrey;
+        text-decoration: none;
+        margin-right: 20px;
+        color: white;
+        font-style: bold;
+       }
+
+       nav > a:hover {
+        text-decoration: underline;
+       }
+
+       .noticias { /*main do Guanabara */
+        background-color: white;
+        padding: 10px;
+        margin: 10px;
+        text-align: justify;
+        border-radius: 7px;
+        box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.322);
+       }
+
+       article {
+        background-color: lightgray;
+        padding: 5px;
+       }
+
+       aside {
+        background-color: rgb(104, 98, 98);
+        margin: 5px;
+       }
+
+       footer {
+        background-color: black;
+        color: white;
+        text-align: center;
+        margin: 0px;
+        padding: 4px;
+       }
+
+       footer > p {
+        margin: 0px;
+       }
+       div#bola {
+        height: 100px;
+        width: 100px;
+        margin: 10px;
+        background-color: white;
+        border-radius: 50%;
+       }
+
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meu site</h1>
+        <nav>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+            <a href="#">Link</a>
+        </nav>
+    </header>
+    <main>
+       <section id="assuntos">
+       
+       </section>
+       <section class="noticias">
+        <article>
+            <h2>Notícias sobre o Brasil</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, quaerat sapiente doloribus itaque repudiandae praesentium fugiat excepturi iure quod rem, non dolores aliquid voluptatem vero consequatur consequuntur animi iusto provident!</p>
+            <aside>
+                Escrito por José
+            </aside>
+        </article>
+       </section> 
+    </main>
+    <footer>
+        <p>Desenvolvido por Cursoemvídeo</p>
+    </footer>
+    <div id="bola"></div>
+</body>
+</html>
